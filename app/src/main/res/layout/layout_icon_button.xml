@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="@dimen/default_margin"
+    android:paddingVertical="@dimen/icon_button_vertical_padding"
+    style="@style/ClickableBackground"
+    >
+    <FrameLayout
+        android:id="@+id/layout_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/icon_button_icon_padding"
+        android:background="@drawable/background_circle"
+        >
+        <ImageView
+            android:id="@+id/image_view_schema"
+            android:layout_width="@dimen/icon_button_icon_size"
+            android:layout_height="@dimen/icon_button_icon_size"
+            android:layout_gravity="center_vertical"
+            app:tint="@color/white"
+            tools:src="@drawable/ic_copy"
+            />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/default_margin"
+        android:ellipsize="end"
+        android:textColor="@color/color_icon_button_icon_and_text"
+        tools:text="Copy"
+        style="@style/DefaultTextViewStyle"
+        />
+</LinearLayout>

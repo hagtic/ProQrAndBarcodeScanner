@@ -1,0 +1,2 @@
+# ProQrAndBarcodeScanner
+ D:\ProQrAndBarcodeScanner
