@@ -7,7 +7,8 @@ Pro QR & Barcode Scanner is an ad-free, open-source scanner app. It uses the [ZX
 ## Download
 
 <a href="https://play.google.com/store/apps/details?id=com.hgapp.qrbar">
-		<img alt="Get it on Google Play" src="https://github.com/hagtic/ProQrAndBarcodeScanner/assets/26298059/5f0a99e9-0067-4c84-a285-2627d6aa3bb2" height="60"/></a> 
+		Get it on Google Play 
+</a> 
 
 ## Screenshots
 
